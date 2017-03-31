@@ -1,0 +1,14 @@
+1. Investigar LSA.
+2. Hablar con personas que saben de LSA.
+3. Investigar Kinect.
+4. Pensar cómo van a estar ubicadas las cosas en el programa.
+5. Diseñar las clases y evaluaciones.
+6. Diseñar cuestiones estéticas.
+7. Primeros pasos con Kinect.
+8. Hacer un sistema de inicio de sesión.
+9. Hacer clases.
+10. Hacer evaluaciones.
+11. Hacer posible subir resultados a redes sociales.
+12. Agregar una tabla de puntuaciones.
+13. Agregar sistema de niveles.
+14. Extras (desafíos, información sobre el lenguaje de señas, etc). 
