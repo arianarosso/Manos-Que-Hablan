@@ -1,0 +1,70 @@
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.exe.config
+E:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.exe.config
+E:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.exe
+E:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.pdb
+E:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.csprojResolveAssemblyReference.cache
+E:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Form1.resources
+E:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Form2.resources
+E:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Form3.resources
+E:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Form4.resources
+E:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Properties.Resources.resources
+E:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.csproj.GenerateResource.Cache
+E:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.exe
+E:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.pdb
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.exe.config
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.exe
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.pdb
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.exe
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.pdb
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Form1.resources
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Form2.resources
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Form3.resources
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Form4.resources
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Form5.resources
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Pendrive negro\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.csproj.GenerateResource.Cache
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.exe
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.pdb
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.exe.config
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.exe
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.pdb
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.exe
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.pdb
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.csprojResolveAssemblyReference.cache
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Properties.Resources.resources
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.csproj.GenerateResource.Cache
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\aa-DJ\Manos que Hablan.resources.dll
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Microsoft.Kinect.dll
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Microsoft.Kinect.xml
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Index.resources
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Registrarse.resources
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.IniciarSesion.resources
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.PaginaPrincipal.resources
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Ejercicio1.resources
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.KinectStream.resources
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.KinectStream.aa-DJ.resources
+C:\Users\42224826\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\aa-DJ\Manos que Hablan.resources.dll
+C:\Users\42565648\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.exe.config
+C:\Users\42565648\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.exe
+C:\Users\42565648\Downloads\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.pdb
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.exe
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Manos que Hablan.pdb
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\en-150\Manos que Hablan.resources.dll
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\aa-DJ\Manos que Hablan.resources.dll
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Microsoft.Kinect.dll
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Microsoft.Kinect.xml
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.csprojResolveAssemblyReference.cache
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Index.resources
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Registrarse.resources
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.IniciarSesion.resources
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.PaginaPrincipal.resources
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Ejercicio1.resources
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.KinectStream.resources
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.Properties.Resources.resources
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.KinectStream.en-150.resources
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos_que_Hablan.KinectStream.aa-DJ.resources
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.csproj.GenerateResource.Cache
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\en-150\Manos que Hablan.resources.dll
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\aa-DJ\Manos que Hablan.resources.dll
+F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Coding4Fun.Kinect.WinForm.dll
