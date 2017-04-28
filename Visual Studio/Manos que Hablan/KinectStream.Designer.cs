@@ -35,6 +35,7 @@
             this.lblConectionID = new System.Windows.Forms.Label();
             this.btnStream = new System.Windows.Forms.Button();
             this.pbStream = new System.Windows.Forms.PictureBox();
+            this.lblPosition = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbStream)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,10 +72,17 @@
             this.pbStream.Name = "pbStream";
             this.pbStream.TabStop = false;
             // 
+            // lblPosition
+            // 
+            resources.ApplyResources(this.lblPosition, "lblPosition");
+            this.lblPosition.Name = "lblPosition";
+            this.lblPosition.Click += new System.EventHandler(this.label3_Click);
+            // 
             // KinectStream
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lblPosition);
             this.Controls.Add(this.pbStream);
             this.Controls.Add(this.btnStream);
             this.Controls.Add(this.lblConectionID);
@@ -96,5 +104,6 @@
         private System.Windows.Forms.Label lblConectionID;
         private System.Windows.Forms.Button btnStream;
         private System.Windows.Forms.PictureBox pbStream;
+        private System.Windows.Forms.Label lblPosition;
     }
 }

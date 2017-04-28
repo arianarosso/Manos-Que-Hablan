@@ -39,7 +39,7 @@ namespace Manos_que_Hablan
                 kSensor.DepthStream.Range = DepthRange.Near;
                 kSensor.AllFramesReady += KSensor_AllFramesReady;
                 kSensor.SkeletonStream.Enable();
-                kSensor.SkeletonStream.TrackingMode = SkeletonTrackingMode.Seated
+                kSensor.SkeletonStream.TrackingMode = SkeletonTrackingMode.Seated;
             }
             else
             {
@@ -77,6 +77,7 @@ namespace Manos_que_Hablan
                 var position = TrackedSkeletons.Joints[JointType.HandRight].Position;
                 var coordinateMapper = new CoordinateMapper(kSensor);
                 var colorPoint = coordinateMapper.MapSkeletonPointToColorPoint(position, ColorImageFormat.InfraredResolution640x480Fps30);
+                this.lblPosition.Text = string.Format("Posición Mano X:(0) Y: (1)", colorPoint.X, colorPoint.Y);
             }
         }
 
@@ -108,6 +109,11 @@ namespace Manos_que_Hablan
             System.Runtime.InteropServices.Marshal.Copy(pixelData, 0, bmpData.Scan0, frame.PixelDataLength);
             bmpFrame.UnlockBits(bmpData);
             return bmpFrame;*/
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
