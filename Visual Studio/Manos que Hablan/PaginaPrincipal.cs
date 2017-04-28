@@ -16,25 +16,25 @@ namespace Manos_que_Hablan
         {
             InitializeComponent();
         }
-
-        private void label2_Click(object sender, EventArgs e)
+        private void lblCerrarSesion_Click(object sender, EventArgs e)
         {
-
+            Index index = new Index();
+            index.Tag = this;
+            index.Show(this);
+            Hide();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void pcbLeccion1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
+            Leccion1 leccion1 = new Leccion1();
+            leccion1.Tag = this;
+            leccion1.Show(this);
+            Hide();
         }
     }
 }
