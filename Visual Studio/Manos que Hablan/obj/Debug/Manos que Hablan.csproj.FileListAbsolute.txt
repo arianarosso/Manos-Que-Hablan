@@ -68,3 +68,6 @@ F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.c
 F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\en-150\Manos que Hablan.resources.dll
 F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\aa-DJ\Manos que Hablan.resources.dll
 F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Coding4Fun.Kinect.WinForm.dll
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\bin\Debug\Manos que Hablan.exe.config
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos que Hablan.exe
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos que Hablan.pdb

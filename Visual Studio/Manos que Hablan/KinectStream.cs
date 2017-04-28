@@ -74,7 +74,9 @@ namespace Manos_que_Hablan
                     return;
                 }
 
-                //var position = TrackedSkeleton.Joints[JointType.]
+                var position = TrackedSkeletons.Joints[JointType.HandRight].Position;
+                var coordinateMapper = new CoordinateMapper(kSensor);
+                var colorPoint = coordinateMapper.MapSkeletonPointToColorPoint(position, ColorImageFormat.InfraredResolution640x480Fps30);
             }
         }
 
