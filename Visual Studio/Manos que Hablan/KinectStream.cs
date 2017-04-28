@@ -34,7 +34,12 @@ namespace Manos_que_Hablan
                 kSensor.Start();
                 this.lblConectionID.Text = kSensor.DeviceConnectionId;
                 kSensor.ColorStream.Enable(ColorImageFormat.RgbResolution640x480Fps30);
-                kSensor.ColorFrameReady += KSensor_ColorFrameReady;
+                //kSensor.ColorFrameReady += KSensor_ColorFrameReady;
+                kSensor.DepthStream.Enable();
+                kSensor.DepthStream.Range = DepthRange.Near;
+                kSensor.AllFramesReady += KSensor_AllFramesReady;
+                kSensor.SkeletonStream.Enable();
+                kSensor.SkeletonStream.TrackingMode = SkeletonTrackingMode.Seated
             }
             else
             {
@@ -47,7 +52,33 @@ namespace Manos_que_Hablan
             }
         }
 
-        private void KSensor_ColorFrameReady(object sender, ColorImageFrameReadyEventArgs e)
+        private void KSensor_AllFramesReady(object sender, AllFramesReadyEventArgs e)
+        {
+            using (var frame = e.OpenColorImageFrame())
+                if (frame != null)
+                    pbStream.Image = CreateBitmapFromSensor(frame);
+
+            using (var frame = e.OpenSkeletonFrame())
+            {
+                if (frame == null)
+                {
+                    return;
+                }
+
+                var skeletons = new Skeleton[frame.SkeletonArrayLength];
+                frame.CopySkeletonDataTo(skeletons);
+
+                var TrackedSkeletons = skeletons.FirstOrDefault(s => s.TrackingState == SkeletonTrackingState.Tracked);
+                if (TrackedSkeletons == null)
+                {
+                    return;
+                }
+
+                //var position = TrackedSkeleton.Joints[JointType.]
+            }
+        }
+
+        /*private void KSensor_ColorFrameReady(object sender, ColorImageFrameReadyEventArgs e)
         {
             using (var frame = e.OpenColorImageFrame())
             {
@@ -56,7 +87,7 @@ namespace Manos_que_Hablan
                     pbStream.Image = CreateBitmapFromSensor(frame);
                 }
             }
-        }
+        }*/
 
         private void KinectSensors_StatusChanged(object sender, StatusChangedEventArgs e)
         {

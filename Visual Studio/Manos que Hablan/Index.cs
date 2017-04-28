@@ -27,5 +27,10 @@ namespace Manos_que_Hablan
             KinectStream kinect = new KinectStream();
             kinect.Show();
         }
+
+        private void btnIniciar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
