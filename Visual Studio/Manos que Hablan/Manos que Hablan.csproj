@@ -75,11 +75,11 @@
     <Compile Include="PaginaPrincipal.Designer.cs">
       <DependentUpon>PaginaPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ejercicio1.cs">
+    <Compile Include="Leccion1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ejercicio1.Designer.cs">
-      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    <Compile Include="Leccion1.Designer.cs">
+      <DependentUpon>Leccion1.cs</DependentUpon>
     </Compile>
     <Compile Include="KinectStream.cs">
       <SubType>Form</SubType>
@@ -104,8 +104,8 @@
     <EmbeddedResource Include="PaginaPrincipal.resx">
       <DependentUpon>PaginaPrincipal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ejercicio1.resx">
-      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    <EmbeddedResource Include="Leccion1.resx">
+      <DependentUpon>Leccion1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KinectStream.aa-DJ.resx">
       <DependentUpon>KinectStream.cs</DependentUpon>
@@ -121,6 +121,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -135,6 +136,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iniciar sesión.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registrarse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar sesión.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\presentaciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vida cotidiana.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

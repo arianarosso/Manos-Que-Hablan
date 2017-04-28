@@ -127,15 +127,15 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Conection ID:</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
   <data name="&gt;&gt;lblStatus.Name" xml:space="preserve">
     <value>lblStatus</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
-  </data>
-  <data name="btnStream.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
   </data>
   <data name="&gt;&gt;btnStream.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -145,6 +145,9 @@
   </data>
   <data name="&gt;&gt;pbStream.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="pbStream.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;pbStream.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -182,20 +185,17 @@
   <data name="&gt;&gt;lblStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="lblConectionID.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
   <data name="&gt;&gt;lblConectionID.Name" xml:space="preserve">
     <value>lblConectionID</value>
   </data>
   <data name="lblStatus.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;pbStream.Name" xml:space="preserve">
-    <value>pbStream</value>
-  </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>5</value>
-  </data>
-  <data name="&gt;&gt;lblConectionID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -206,8 +206,8 @@
   <data name="&gt;&gt;btnStream.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="lblConectionID.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;lblConectionID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblConectionID.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -215,8 +215,8 @@
   <data name="pbStream.Size" type="System.Drawing.Size, System.Drawing">
     <value>863, 358</value>
   </data>
-  <data name="pbStream.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="btnStream.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
@@ -227,8 +227,8 @@
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 13</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 13</value>
+  <data name="&gt;&gt;pbStream.Name" xml:space="preserve">
+    <value>pbStream</value>
   </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

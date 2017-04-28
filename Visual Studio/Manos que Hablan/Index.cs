@@ -17,10 +17,7 @@ namespace Manos_que_Hablan
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void btnIraKinect_Click(object sender, EventArgs e)
         {
@@ -28,9 +25,20 @@ namespace Manos_que_Hablan
             kinect.Show();
         }
 
-        private void btnIniciar_Click(object sender, EventArgs e)
+        private void btnIniciarSesion_Click(object sender, EventArgs e)
         {
+            IniciarSesion iniciarSesion = new IniciarSesion();
+            iniciarSesion.Tag = this;
+            iniciarSesion.Show(this);
+            Hide();
+        }
 
+        private void btnRegistrarte_Click(object sender, EventArgs e)
+        {
+            Registrarse registrarse = new Registrarse();
+            registrarse.Tag = this;
+            registrarse.Show(this);
+            Hide();
         }
     }
 }

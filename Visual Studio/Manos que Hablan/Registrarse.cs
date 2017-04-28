@@ -16,15 +16,12 @@ namespace Manos_que_Hablan
         {
             InitializeComponent();
         }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void btnRegistrarse_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
+            PaginaPrincipal pagPrincipal = new PaginaPrincipal();
+            pagPrincipal.Tag = this;
+            pagPrincipal.Show(this);
+            Hide();
         }
     }
 }

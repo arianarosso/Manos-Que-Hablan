@@ -68,3 +68,29 @@ F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\Manos que Hablan.c
 F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\en-150\Manos que Hablan.resources.dll
 F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\obj\Debug\aa-DJ\Manos que Hablan.resources.dll
 F:\PROYECTO FINAL\Manos que Hablan\Manos que Hablan\bin\Debug\Coding4Fun.Kinect.WinForm.dll
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\bin\Debug\Manos que Hablan.exe.config
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos que Hablan.exe
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos que Hablan.pdb
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\bin\Debug\Manos que Hablan.exe
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\bin\Debug\Manos que Hablan.pdb
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\bin\Debug\en-150\Manos que Hablan.resources.dll
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\bin\Debug\aa-DJ\Manos que Hablan.resources.dll
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\bin\Debug\Coding4Fun.Kinect.WinForm.dll
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\bin\Debug\Microsoft.Kinect.dll
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\bin\Debug\Microsoft.Kinect.xml
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos que Hablan.csprojResolveAssemblyReference.cache
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos_que_Hablan.Index.resources
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos_que_Hablan.Registrarse.resources
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos_que_Hablan.IniciarSesion.resources
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos_que_Hablan.PaginaPrincipal.resources
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos_que_Hablan.KinectStream.resources
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos_que_Hablan.Properties.Resources.resources
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos_que_Hablan.KinectStream.en-150.resources
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos_que_Hablan.KinectStream.aa-DJ.resources
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos que Hablan.csproj.GenerateResource.Cache
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\en-150\Manos que Hablan.resources.dll
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\aa-DJ\Manos que Hablan.resources.dll
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos_que_Hablan.Leccion1.resources
+F:\Visual Studio diseño\Manos que Hablan\bin\Debug\Manos que Hablan.exe.config
+F:\Visual Studio diseño\Manos que Hablan\obj\Debug\Manos que Hablan.exe
+F:\Visual Studio diseño\Manos que Hablan\obj\Debug\Manos que Hablan.pdb
