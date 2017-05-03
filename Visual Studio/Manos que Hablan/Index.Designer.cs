@@ -28,28 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.btnIraKinect = new System.Windows.Forms.Button();
             this.btnIniciarSesion = new System.Windows.Forms.PictureBox();
             this.btnRegistrarte = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnIniciarSesion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRegistrarte)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Myriad Pro Light", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(307, 81);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(325, 45);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Manos Que Hablan";
             // 
             // btnIraKinect
             // 
-            this.btnIraKinect.Location = new System.Drawing.Point(691, 347);
+            this.btnIraKinect.Location = new System.Drawing.Point(693, 397);
             this.btnIraKinect.Name = "btnIraKinect";
             this.btnIraKinect.Size = new System.Drawing.Size(124, 55);
             this.btnIraKinect.TabIndex = 3;
@@ -61,7 +51,7 @@
             // 
             this.btnIniciarSesion.BackColor = System.Drawing.Color.Transparent;
             this.btnIniciarSesion.Image = global::Manos_que_Hablan.Properties.Resources.iniciar_sesión;
-            this.btnIniciarSesion.Location = new System.Drawing.Point(335, 182);
+            this.btnIniciarSesion.Location = new System.Drawing.Point(337, 232);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
             this.btnIniciarSesion.Size = new System.Drawing.Size(251, 113);
             this.btnIniciarSesion.TabIndex = 4;
@@ -72,12 +62,24 @@
             // 
             this.btnRegistrarte.BackColor = System.Drawing.Color.Transparent;
             this.btnRegistrarte.Image = global::Manos_que_Hablan.Properties.Resources.registrarse;
-            this.btnRegistrarte.Location = new System.Drawing.Point(335, 329);
+            this.btnRegistrarte.Location = new System.Drawing.Point(337, 351);
             this.btnRegistrarte.Name = "btnRegistrarte";
             this.btnRegistrarte.Size = new System.Drawing.Size(251, 113);
             this.btnRegistrarte.TabIndex = 5;
             this.btnRegistrarte.TabStop = false;
             this.btnRegistrarte.Click += new System.EventHandler(this.btnRegistrarte_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::Manos_que_Hablan.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(334, -18);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(271, 274);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.btnIniciarSesion_Click);
             // 
             // Index
             // 
@@ -86,24 +88,23 @@
             this.BackgroundImage = global::Manos_que_Hablan.Properties.Resources.Background;
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.btnRegistrarte);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnIniciarSesion);
             this.Controls.Add(this.btnIraKinect);
-            this.Controls.Add(this.label1);
             this.Name = "Index";
             this.Text = "Manos Que Hablan";
             ((System.ComponentModel.ISupportInitialize)(this.btnIniciarSesion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRegistrarte)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnIraKinect;
         private System.Windows.Forms.PictureBox btnIniciarSesion;
         private System.Windows.Forms.PictureBox btnRegistrarte;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

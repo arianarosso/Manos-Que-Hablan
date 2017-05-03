@@ -15,36 +15,32 @@ namespace Manos_que_Hablan
         public Leccion1()
         {
             InitializeComponent();
-        }
-
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            progressBar.Minimum = 0;
+            progressBar.Maximum = 10;
+            progressBar.Step = 1;
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-
+            progressBar.PerformStep();
         }
 
-        private void Ejercicio1_Load(object sender, EventArgs e)
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
+            pictureBox2.Visible = false;
+        }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = false;
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            PaginaPrincipal pagPrincipal = new PaginaPrincipal();
+            pagPrincipal.Tag = this;
+            pagPrincipal.Show(this);
+            Hide();
         }
     }
 }
