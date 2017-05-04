@@ -14,7 +14,7 @@ using Coding4Fun.Kinect.WinForm;
 namespace Manos_que_Hablan
 {
     public partial class KinectStream : Form
-    { 
+    {
         private KinectSensor kSensor;
         public KinectStream()
         {
@@ -36,7 +36,7 @@ namespace Manos_que_Hablan
                 kSensor.ColorStream.Enable(ColorImageFormat.RgbResolution640x480Fps30);
                 //kSensor.ColorFrameReady += KSensor_ColorFrameReady;
                 kSensor.DepthStream.Enable();
-                kSensor.DepthStream.Range = DepthRange.Near;
+                //kSensor.DepthStream.Range = DepthRange.Near;
                 kSensor.AllFramesReady += KSensor_AllFramesReady;
                 kSensor.SkeletonStream.Enable();
                 kSensor.SkeletonStream.TrackingMode = SkeletonTrackingMode.Seated;
@@ -56,42 +56,29 @@ namespace Manos_que_Hablan
         {
             using (var frame = e.OpenColorImageFrame())
                 if (frame != null)
+                {
                     pbStream.Image = CreateBitmapFromSensor(frame);
+                }
 
             using (var frame = e.OpenSkeletonFrame())
             {
-                if (frame == null)
-                {
-                    return;
-                }
-
-                var skeletons = new Skeleton[frame.SkeletonArrayLength];
-                frame.CopySkeletonDataTo(skeletons);
-
-                var TrackedSkeletons = skeletons.FirstOrDefault(s => s.TrackingState == SkeletonTrackingState.Tracked);
-                if (TrackedSkeletons == null)
-                {
-                    return;
-                }
-
-                var position = TrackedSkeletons.Joints[JointType.HandRight].Position;
-                var coordinateMapper = new CoordinateMapper(kSensor);
-                var colorPoint = coordinateMapper.MapSkeletonPointToColorPoint(position, ColorImageFormat.InfraredResolution640x480Fps30);
-                this.lblPosition.Text = string.Format("Posición Mano X:(0) Y: (1)", colorPoint.X, colorPoint.Y);
-            }
-        }
-
-        /*private void KSensor_ColorFrameReady(object sender, ColorImageFrameReadyEventArgs e)
-        {
-            using (var frame = e.OpenColorImageFrame())
-            {
                 if (frame != null)
                 {
-                    pbStream.Image = CreateBitmapFromSensor(frame);
+                    var skeletons = new Skeleton[frame.SkeletonArrayLength];
+                    frame.CopySkeletonDataTo(skeletons);
+
+                    var TrackedSkeletons = skeletons.FirstOrDefault(s => s.TrackingState == SkeletonTrackingState.Tracked);
+                    if (TrackedSkeletons != null)
+                    {
+                        var position = TrackedSkeletons.Joints[JointType.HandRight].Position;
+                        var coordinateMapper = new CoordinateMapper(kSensor);
+                        var colorPoint = coordinateMapper.MapSkeletonPointToColorPoint(position, ColorImageFormat.InfraredResolution640x480Fps30);
+                        this.lblPosition.Text = string.Format("Posición Mano X:(0) Y: (1)", colorPoint.X, colorPoint.Y);
+                        Cursor.Position = new Point(colorPoint.X, colorPoint.Y);
+                    }
                 }
             }
-        }*/
-
+        }
         private void KinectSensors_StatusChanged(object sender, StatusChangedEventArgs e)
         {
             this.lblStatus.Text = kSensor.Status.ToString();
