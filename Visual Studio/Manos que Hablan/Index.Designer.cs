@@ -28,24 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnIraKinect = new System.Windows.Forms.Button();
             this.btnIniciarSesion = new System.Windows.Forms.PictureBox();
             this.btnRegistrarte = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pcLogo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnIniciarSesion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRegistrarte)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcLogo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnIraKinect
-            // 
-            this.btnIraKinect.Location = new System.Drawing.Point(693, 397);
-            this.btnIraKinect.Name = "btnIraKinect";
-            this.btnIraKinect.Size = new System.Drawing.Size(124, 55);
-            this.btnIraKinect.TabIndex = 3;
-            this.btnIraKinect.Text = "Ir a Kinect Stream";
-            this.btnIraKinect.UseVisualStyleBackColor = true;
-            this.btnIraKinect.Click += new System.EventHandler(this.btnIraKinect_Click);
             // 
             // btnIniciarSesion
             // 
@@ -69,17 +58,17 @@
             this.btnRegistrarte.TabStop = false;
             this.btnRegistrarte.Click += new System.EventHandler(this.btnRegistrarte_Click);
             // 
-            // pictureBox1
+            // pcLogo
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Manos_que_Hablan.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(334, -18);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(271, 274);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.btnIniciarSesion_Click);
+            this.pcLogo.BackColor = System.Drawing.Color.Transparent;
+            this.pcLogo.Image = global::Manos_que_Hablan.Properties.Resources.logo;
+            this.pcLogo.Location = new System.Drawing.Point(334, -18);
+            this.pcLogo.Name = "pcLogo";
+            this.pcLogo.Size = new System.Drawing.Size(271, 274);
+            this.pcLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcLogo.TabIndex = 4;
+            this.pcLogo.TabStop = false;
+            this.pcLogo.Click += new System.EventHandler(this.btnIniciarSesion_Click);
             // 
             // Index
             // 
@@ -88,23 +77,21 @@
             this.BackgroundImage = global::Manos_que_Hablan.Properties.Resources.Background;
             this.ClientSize = new System.Drawing.Size(984, 561);
             this.Controls.Add(this.btnRegistrarte);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pcLogo);
             this.Controls.Add(this.btnIniciarSesion);
-            this.Controls.Add(this.btnIraKinect);
             this.Name = "Index";
             this.Text = "Manos Que Hablan";
             ((System.ComponentModel.ISupportInitialize)(this.btnIniciarSesion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRegistrarte)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Button btnIraKinect;
         private System.Windows.Forms.PictureBox btnIniciarSesion;
         private System.Windows.Forms.PictureBox btnRegistrarte;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pcLogo;
     }
 }
 

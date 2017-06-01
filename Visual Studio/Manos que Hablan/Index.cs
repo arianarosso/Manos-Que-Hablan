@@ -17,13 +17,19 @@ namespace Manos_que_Hablan
             InitializeComponent();
         }
 
-       
+       private void pcLogo_Click(object sender, EventArgs e)
+        {
+            PaginaPrincipal paginaPrincipal = new PaginaPrincipal();
+            paginaPrincipal.Tag = this;
+            paginaPrincipal.Show(this);
+            Hide();
+        }
 
-        private void btnIraKinect_Click(object sender, EventArgs e)
+      /*  private void btnIraKinect_Click(object sender, EventArgs e)
         {
             KinectStream kinect = new KinectStream();
             kinect.Show();
-        }
+        }*/
 
         private void btnIniciarSesion_Click(object sender, EventArgs e)
         {

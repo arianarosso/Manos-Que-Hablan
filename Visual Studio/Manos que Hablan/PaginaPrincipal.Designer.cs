@@ -182,7 +182,7 @@
             // pcbLeccion4
             // 
             this.pcbLeccion4.BackColor = System.Drawing.Color.Transparent;
-            this.pcbLeccion4.Location = new System.Drawing.Point(117, 323);
+            this.pcbLeccion4.Location = new System.Drawing.Point(284, 67);
             this.pcbLeccion4.Name = "pcbLeccion4";
             this.pcbLeccion4.Size = new System.Drawing.Size(117, 117);
             this.pcbLeccion4.TabIndex = 6;
@@ -203,7 +203,7 @@
             // 
             this.pcbLeccion2.BackColor = System.Drawing.Color.Transparent;
             this.pcbLeccion2.Image = global::Manos_que_Hablan.Properties.Resources.presentaciones;
-            this.pcbLeccion2.Location = new System.Drawing.Point(284, 67);
+            this.pcbLeccion2.Location = new System.Drawing.Point(117, 323);
             this.pcbLeccion2.Name = "pcbLeccion2";
             this.pcbLeccion2.Size = new System.Drawing.Size(117, 117);
             this.pcbLeccion2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -247,7 +247,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Myriad Pro Light", 9F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(301, 194);
+            this.label4.Location = new System.Drawing.Point(132, 449);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 15);
             this.label4.TabIndex = 14;
@@ -291,11 +291,11 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Myriad Pro Light", 9F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(143, 449);
+            this.label8.Location = new System.Drawing.Point(281, 194);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(54, 15);
+            this.label8.Size = new System.Drawing.Size(122, 15);
             this.label8.TabIndex = 18;
-            this.label8.Text = "Lección 4";
+            this.label8.Text = "Configuración manual";
             // 
             // PaginaPrincipal
             // 

@@ -12,9 +12,6 @@ namespace Manos_que_Hablan
 {
     public partial class ucSeleccionarCorrecto : UserControl
     {
-        public ucSeleccionarCorrecto()
-        {
-            InitializeComponent();
-        }
+        
     }
 }
