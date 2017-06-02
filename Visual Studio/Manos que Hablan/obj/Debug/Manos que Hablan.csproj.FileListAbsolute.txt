@@ -96,7 +96,6 @@ C:\manos-que-hablan\Visual Studio\Manos que Hablan\bin\Debug\cvextern.dll
 C:\manos-que-hablan\Visual Studio\Manos que Hablan\bin\Debug\msvcp140.dll
 C:\manos-que-hablan\Visual Studio\Manos que Hablan\bin\Debug\opencv_ffmpeg320_64.dll
 C:\manos-que-hablan\Visual Studio\Manos que Hablan\bin\Debug\vcruntime140.dll
-C:\manos-que-hablan\Visual Studio\Manos que Hablan\bin\Debug\Emgu.CV.World.dll
 C:\manos-que-hablan\Visual Studio\Manos que Hablan\bin\Debug\Emgu.CV.World.xml
 C:\manos-que-hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos que Hablan.csprojResolveAssemblyReference.cache
 C:\manos-que-hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos_que_Hablan.EscribirPalabra.resources
@@ -199,3 +198,4 @@ C:\Users\Usuario\Desktop\manos-que-hablan\Visual Studio\Manos que Hablan\obj\Deb
 C:\Users\Usuario\Desktop\manos-que-hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos que Hablan.csproj.GenerateResource.Cache
 C:\Users\Usuario\Desktop\manos-que-hablan\Visual Studio\Manos que Hablan\obj\Debug\en-150\Manos que Hablan.resources.dll
 C:\Users\Usuario\Desktop\manos-que-hablan\Visual Studio\Manos que Hablan\obj\Debug\aa-DJ\Manos que Hablan.resources.dll
+C:\Manos-Que-Hablan\Visual Studio\Manos que Hablan\obj\Debug\Manos_que_Hablan.Vocabulario.resources

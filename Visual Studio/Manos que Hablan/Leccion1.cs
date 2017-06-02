@@ -19,8 +19,6 @@ namespace Manos_que_Hablan
     {
         int[] VecCantABC = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
         String[] VecABC = new String[30] { "A", "B", "C", "CH", "D", "E", "F", "G", "H", "I", "J", "K", "L", "LL", "M", "N", "Ñ", "O", "P", "Q", "R", "RR", "S", "T", "U", "V", "W", "X", "Y", "Z" };
-        //int[] VecProvCantABC = new int[12] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
-        //String[] VecProvABC = new String[12] { "A", "Ñ", "O", "P", "Q", "R", "RR", "U", "V", "W", "X", "Z" };
         String Correcto = "";
         String Seleccionado = "";
         String LetraSeleccionada = "";
@@ -36,10 +34,11 @@ namespace Manos_que_Hablan
         String[] Ayudas = new String[3];
         int posLetra;
         int ContSeleccionados = 0;
-        int ContJugadas = 28;
+        int ContJugadas = 0;
         int ContJugadasEscribir = 0;
-        int i = 28;
+        int i = -1;
         bool PasarDeEjercicio = false;
+        bool EjercicioEmpezado = false;
 
         public Leccion1()
         {
@@ -47,9 +46,16 @@ namespace Manos_que_Hablan
             progressBar.Minimum = 0;
             progressBar.Maximum = 30;
             progressBar.Step = 1;
-            ActivarSeleccionarCorrecto();
+            pcb1EL.Visible = false;
+            pcb1SC.Visible = false;
+            pcb2SC.Visible = false;
+            pcb3SC.Visible = false;
+            progressBar.Visible = false;
+            lblTitulo.Visible = false;
+            btnAceptar.Visible = false;
+            ElegirImagenes();
         }
-
+        
         private void pcb1SC_Click(object sender, EventArgs e)
         {
             Seleccionado = "1";
@@ -101,7 +107,7 @@ namespace Manos_que_Hablan
             if (Seleccionado == Correcto)
             {
                 ContJugadas++;
-                if (ContJugadas < 29 )
+                if (ContJugadas < 30 )
                 {
                     MessageBox.Show("Correcto!");
                     Seleccionado = "";
@@ -118,8 +124,9 @@ namespace Manos_que_Hablan
                     LimpiarPCBs();
                     LimpiarLabels();
                     lblTitulo.Text = "";
-                    MessageBox.Show("Usted ha terminado la primera clase :)");
+                    MessageBox.Show("Usted ha terminado la primera parte :)");
                     PasarDeEjercicio = true;
+                    progressBar.Value = 0;
                 }
             }
             else
@@ -167,6 +174,10 @@ namespace Manos_que_Hablan
             btnAceptar.Visible = true;
             pcb1EL.Visible = false;
             txtEscribir.Visible = false;
+            pcbMensaje.Visible = false;
+            pcbEmTer.Visible = false;
+            progressBar.Visible = true;
+            lblTitulo.Visible = true;
             LlenarPCBs();
         }
 
@@ -180,6 +191,10 @@ namespace Manos_que_Hablan
             btnAceptar.Visible = true;
             pcb1EL.Visible = true;
             txtEscribir.Visible = true;
+            pcbMensaje.Visible = false;
+            pcbEmTer.Visible = false;
+            progressBar.Visible = true;
+            lblTitulo.Visible = true;
             LlenarPCBs();
         }
 
@@ -202,7 +217,18 @@ namespace Manos_que_Hablan
                     LimpiarPCBs();
                     txtEscribir.Visible = false;
                     LimpiarLabels();
-                    MessageBox.Show("Usted ha terminado la segunda clase :)");
+                    MessageBox.Show("Usted ha terminado la segunda parte :)");
+                    EjercicioEmpezado = true;
+                    pcb1EL.Visible = false;
+                    pcb1SC.Visible = false;
+                    pcb2SC.Visible = false;
+                    pcb3SC.Visible = false;
+                    progressBar.Visible = false;
+                    lblTitulo.Visible = false;
+                    btnAceptar.Visible = false;
+
+                    ElegirImagenes();
+
                 }
             }
             else
@@ -242,7 +268,7 @@ namespace Manos_que_Hablan
 
         public void LlenarPCBs()
         {
-            String pathgif = "C:/Users/Usuario/Desktop/manos-que-hablan/Visual Studio/Gifs/" + LetraSeleccionada + ".gif";
+            String pathgif = "C:/Manos-Que-Hablan/Visual Studio/Gifs/" + LetraSeleccionada + ".gif";
             if (PasarDeEjercicio == false)
             {
                 picture = pcbRandom();
@@ -297,7 +323,7 @@ namespace Manos_que_Hablan
         {
             random1 = randomletra1.Next(0, 30);
             ValidarRandomLetra1(random1);
-            gif2 = "C:/Users/Usuario/Desktop/manos-que-hablan/Visual Studio/Gifs/" + LetraRandom1 + ".gif";
+            gif2 = "C:/Manos-Que-Hablan/Visual Studio/Gifs/" + LetraRandom1 + ".gif";
         }
 
         public void ValidarRandomLetra1(int random1)
@@ -317,7 +343,7 @@ namespace Manos_que_Hablan
             Random randomletra2 = new Random();
             int random2 = randomletra1.Next(0, 30);
             ValidarRandomLetra2(random1, random2);
-            gif3 = "C:/Users/Usuario/Desktop/manos-que-hablan/Visual Studio/Gifs/" + LetraRandom2 + ".gif";
+            gif3 = "C:/Manos-Que-Hablan/Visual Studio/Gifs/" + LetraRandom2 + ".gif";
         }
 
         public void ValidarRandomLetra2(int random1, int random2)
@@ -368,20 +394,49 @@ namespace Manos_que_Hablan
                 pcb1EL.Image = null;
             }
         }
+        public void ElegirImagenes()
+        {
+
+            pcbMensaje.Visible = true;
+            pcbEmTer.Visible = true;
+            if (EjercicioEmpezado)
+            {
+                pcbMensaje.Image = Manos_que_Hablan.Properties.Resources.ABCTerminar;
+                pcbEmTer.Image = Manos_que_Hablan.Properties.Resources.Terminar;
+            }
+            else
+            {
+                pcbMensaje.Image = Manos_que_Hablan.Properties.Resources.ABCEmpezar;
+                pcbEmTer.Image = Manos_que_Hablan.Properties.Resources.Empezar;
+            }
+        }
 
         private void pcb1EL_Click(object sender, EventArgs e)
         {
             lblEscribirLetra.Text = LetraSeleccionada;
         }
-
-        private void Leccion1_Load(object sender, EventArgs e)
+        private void pcbEmTer_Click(object sender, EventArgs e)
         {
-
+            if (EjercicioEmpezado)
+            {
+                PaginaPrincipal pagPrincipal = new PaginaPrincipal();
+                pagPrincipal.Tag = this;
+                pagPrincipal.Show(this);
+                Hide();
+            }
+            else
+            {
+                ActivarSeleccionarCorrecto();
+            }
+            
         }
 
-        private void lblEscribirLetra_Click(object sender, EventArgs e)
+        private void btnVocabulario_Click(object sender, EventArgs e)
         {
-
+            Vocabulario vocab = new Vocabulario();
+            vocab.Text = "Abecedario";
+            vocab.PalabrasObtenidas = VecABC;
+            vocab.ShowDialog();
         }
     }
 }

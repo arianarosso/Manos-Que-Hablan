@@ -120,6 +120,12 @@
     <Compile Include="UnirConFlechas.Designer.cs">
       <DependentUpon>UnirConFlechas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vocabulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vocabulario.Designer.cs">
+      <DependentUpon>Vocabulario.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="EscribirPalabra.resx">
       <DependentUpon>EscribirPalabra.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +171,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UnirConFlechas.resx">
       <DependentUpon>UnirConFlechas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vocabulario.resx">
+      <DependentUpon>Vocabulario.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -246,6 +255,10 @@
     <None Include="Resources\X.gif" />
     <None Include="Resources\Z.gif" />
     <None Include="Resources\aceptar.png" />
+    <None Include="Resources\ABCEmpezar.png" />
+    <None Include="Resources\ABCTerminar.png" />
+    <None Include="Resources\Empezar.png" />
+    <None Include="Resources\Terminar.png" />
     <Content Include="vcruntime140.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

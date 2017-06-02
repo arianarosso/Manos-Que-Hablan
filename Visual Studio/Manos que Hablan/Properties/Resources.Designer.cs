@@ -73,6 +73,26 @@ namespace Manos_que_Hablan.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ABCEmpezar {
+            get {
+                object obj = ResourceManager.GetObject("ABCEmpezar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ABCTerminar {
+            get {
+                object obj = ResourceManager.GetObject("ABCTerminar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aceptar {
             get {
                 object obj = ResourceManager.GetObject("aceptar", resourceCulture);
@@ -96,6 +116,16 @@ namespace Manos_que_Hablan.Properties {
         internal static System.Drawing.Bitmap cerrar_sesión {
             get {
                 object obj = ResourceManager.GetObject("cerrar_sesión", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Empezar {
+            get {
+                object obj = ResourceManager.GetObject("Empezar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +236,16 @@ namespace Manos_que_Hablan.Properties {
         internal static System.Drawing.Bitmap salir {
             get {
                 object obj = ResourceManager.GetObject("salir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Terminar {
+            get {
+                object obj = ResourceManager.GetObject("Terminar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -41,16 +41,34 @@
             this.lbl3 = new System.Windows.Forms.Label();
             this.txtEscribir = new System.Windows.Forms.TextBox();
             this.lblEscribirLetra = new System.Windows.Forms.Label();
+            this.pcbMensaje = new System.Windows.Forms.PictureBox();
+            this.pcbEmTer = new System.Windows.Forms.PictureBox();
+            this.btnVocabulario = new System.Windows.Forms.Button();
+            this.pcb1UF = new System.Windows.Forms.PictureBox();
+            this.pcb3UF = new System.Windows.Forms.PictureBox();
+            this.pcb5UF = new System.Windows.Forms.PictureBox();
+            this.pcb2UF = new System.Windows.Forms.PictureBox();
+            this.pcb4UF = new System.Windows.Forms.PictureBox();
+            this.pcb6UF = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb1SC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb2SC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb3SC)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAceptar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb1EL)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbMensaje)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbEmTer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb1UF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb3UF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb5UF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb2UF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb4UF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb6UF)).BeginInit();
             this.SuspendLayout();
             // 
             // progressBar
             // 
+            this.progressBar.BackColor = System.Drawing.Color.White;
             this.progressBar.Location = new System.Drawing.Point(58, 504);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(529, 25);
@@ -166,9 +184,10 @@
             // 
             // txtEscribir
             // 
+            this.txtEscribir.Font = new System.Drawing.Font("Myriad Pro Light", 15F, System.Drawing.FontStyle.Bold);
             this.txtEscribir.Location = new System.Drawing.Point(483, 204);
             this.txtEscribir.Name = "txtEscribir";
-            this.txtEscribir.Size = new System.Drawing.Size(259, 20);
+            this.txtEscribir.Size = new System.Drawing.Size(259, 31);
             this.txtEscribir.TabIndex = 20;
             // 
             // lblEscribirLetra
@@ -181,7 +200,90 @@
             this.lblEscribirLetra.Name = "lblEscribirLetra";
             this.lblEscribirLetra.Size = new System.Drawing.Size(0, 24);
             this.lblEscribirLetra.TabIndex = 21;
-            this.lblEscribirLetra.Click += new System.EventHandler(this.lblEscribirLetra_Click);
+            // 
+            // pcbMensaje
+            // 
+            this.pcbMensaje.BackColor = System.Drawing.Color.Transparent;
+            this.pcbMensaje.Location = new System.Drawing.Point(200, 12);
+            this.pcbMensaje.Name = "pcbMensaje";
+            this.pcbMensaje.Size = new System.Drawing.Size(614, 406);
+            this.pcbMensaje.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbMensaje.TabIndex = 22;
+            this.pcbMensaje.TabStop = false;
+            // 
+            // pcbEmTer
+            // 
+            this.pcbEmTer.BackColor = System.Drawing.Color.Transparent;
+            this.pcbEmTer.Location = new System.Drawing.Point(346, 408);
+            this.pcbEmTer.Name = "pcbEmTer";
+            this.pcbEmTer.Size = new System.Drawing.Size(295, 159);
+            this.pcbEmTer.TabIndex = 23;
+            this.pcbEmTer.TabStop = false;
+            this.pcbEmTer.Click += new System.EventHandler(this.pcbEmTer_Click);
+            // 
+            // btnVocabulario
+            // 
+            this.btnVocabulario.Location = new System.Drawing.Point(26, 12);
+            this.btnVocabulario.Name = "btnVocabulario";
+            this.btnVocabulario.Size = new System.Drawing.Size(75, 23);
+            this.btnVocabulario.TabIndex = 24;
+            this.btnVocabulario.Text = "Vocabulario";
+            this.btnVocabulario.UseVisualStyleBackColor = true;
+            this.btnVocabulario.Click += new System.EventHandler(this.btnVocabulario_Click);
+            // 
+            // pcb1UF
+            // 
+            this.pcb1UF.BackColor = System.Drawing.Color.Transparent;
+            this.pcb1UF.Location = new System.Drawing.Point(36, 41);
+            this.pcb1UF.Name = "pcb1UF";
+            this.pcb1UF.Size = new System.Drawing.Size(154, 134);
+            this.pcb1UF.TabIndex = 25;
+            this.pcb1UF.TabStop = false;
+            // 
+            // pcb3UF
+            // 
+            this.pcb3UF.BackColor = System.Drawing.Color.Transparent;
+            this.pcb3UF.Location = new System.Drawing.Point(36, 194);
+            this.pcb3UF.Name = "pcb3UF";
+            this.pcb3UF.Size = new System.Drawing.Size(154, 134);
+            this.pcb3UF.TabIndex = 26;
+            this.pcb3UF.TabStop = false;
+            // 
+            // pcb5UF
+            // 
+            this.pcb5UF.BackColor = System.Drawing.Color.Transparent;
+            this.pcb5UF.Location = new System.Drawing.Point(36, 348);
+            this.pcb5UF.Name = "pcb5UF";
+            this.pcb5UF.Size = new System.Drawing.Size(154, 134);
+            this.pcb5UF.TabIndex = 27;
+            this.pcb5UF.TabStop = false;
+            // 
+            // pcb2UF
+            // 
+            this.pcb2UF.BackColor = System.Drawing.Color.Transparent;
+            this.pcb2UF.Location = new System.Drawing.Point(788, 41);
+            this.pcb2UF.Name = "pcb2UF";
+            this.pcb2UF.Size = new System.Drawing.Size(154, 134);
+            this.pcb2UF.TabIndex = 25;
+            this.pcb2UF.TabStop = false;
+            // 
+            // pcb4UF
+            // 
+            this.pcb4UF.BackColor = System.Drawing.Color.Transparent;
+            this.pcb4UF.Location = new System.Drawing.Point(788, 194);
+            this.pcb4UF.Name = "pcb4UF";
+            this.pcb4UF.Size = new System.Drawing.Size(154, 134);
+            this.pcb4UF.TabIndex = 26;
+            this.pcb4UF.TabStop = false;
+            // 
+            // pcb6UF
+            // 
+            this.pcb6UF.BackColor = System.Drawing.Color.Transparent;
+            this.pcb6UF.Location = new System.Drawing.Point(788, 348);
+            this.pcb6UF.Name = "pcb6UF";
+            this.pcb6UF.Size = new System.Drawing.Size(154, 134);
+            this.pcb6UF.TabIndex = 27;
+            this.pcb6UF.TabStop = false;
             // 
             // Leccion1
             // 
@@ -189,6 +291,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Manos_que_Hablan.Properties.Resources.Background;
             this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.pcb6UF);
+            this.Controls.Add(this.pcb5UF);
+            this.Controls.Add(this.pcb4UF);
+            this.Controls.Add(this.pcb3UF);
+            this.Controls.Add(this.pcb2UF);
+            this.Controls.Add(this.pcb1UF);
+            this.Controls.Add(this.btnVocabulario);
+            this.Controls.Add(this.pcbEmTer);
+            this.Controls.Add(this.pcbMensaje);
             this.Controls.Add(this.lblEscribirLetra);
             this.Controls.Add(this.txtEscribir);
             this.Controls.Add(this.lbl3);
@@ -204,13 +315,20 @@
             this.Controls.Add(this.progressBar);
             this.Name = "Leccion1";
             this.Text = "Lección 1: Abecedario";
-            this.Load += new System.EventHandler(this.Leccion1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.btnVolver)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb1SC)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb2SC)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb3SC)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAceptar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcb1EL)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbMensaje)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbEmTer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb1UF)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb3UF)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb5UF)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb2UF)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb4UF)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcb6UF)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -231,5 +349,14 @@
         private System.Windows.Forms.Label lbl3;
         private System.Windows.Forms.TextBox txtEscribir;
         private System.Windows.Forms.Label lblEscribirLetra;
+        private System.Windows.Forms.PictureBox pcbMensaje;
+        private System.Windows.Forms.PictureBox pcbEmTer;
+        private System.Windows.Forms.Button btnVocabulario;
+        private System.Windows.Forms.PictureBox pcb1UF;
+        private System.Windows.Forms.PictureBox pcb3UF;
+        private System.Windows.Forms.PictureBox pcb5UF;
+        private System.Windows.Forms.PictureBox pcb2UF;
+        private System.Windows.Forms.PictureBox pcb4UF;
+        private System.Windows.Forms.PictureBox pcb6UF;
     }
 }
