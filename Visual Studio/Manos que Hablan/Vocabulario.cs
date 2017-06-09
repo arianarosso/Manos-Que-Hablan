@@ -411,6 +411,7 @@ namespace Manos_que_Hablan
             lbl30.Visible = true;
             pcbGif.Visible = false;
             btnClose.Visible = false;
+            lbl20.Text = "Q";
         }
     }
 }
