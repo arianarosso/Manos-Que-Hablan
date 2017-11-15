@@ -1,0 +1,16 @@
+C:\ManosQueHablan\ManosQueHablan\bin\Debug\ManosQueHablan.exe.config
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.Escribir.resources
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.frmMensaje.resources
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.Index.resources
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.IniciarSesion.resources
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.PaginaPrincipalNueva.resources
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.Properties.Resources.resources
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.Registrarse.resources
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.SeleccionarCorrectas.resources
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.SeleccionarCorrecto.resources
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.UnirConFlechas.resources
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.csproj.GenerateResource.Cache
+C:\ManosQueHablan\ManosQueHablan\bin\Debug\ManosQueHablan.exe
+C:\ManosQueHablan\ManosQueHablan\bin\Debug\ManosQueHablan.pdb
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.exe
+C:\ManosQueHablan\ManosQueHablan\obj\Debug\ManosQueHablan.pdb
